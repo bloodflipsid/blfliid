@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~]\</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="content-wrapper">
+        <div class="button-container">
+            <a href="https://t.me/bloodfl1psidbtw" class="game-button">Telegram</a>
+            <button class="game-button" onclick="openDiscord()">Discord</button>
+            <a href="https://steamcommunity.com/id/lutyiprochelik" class="game-button">Steam</a>
+            <a href="https://steamcommunity.com/id/csgocs2myfavorites999666aethyra1" class="game-button">Steam Inui</a>
+            <button class="game-button" onclick="showSteamInfo()">fv crss</button>
+        </div>
+        <div class="fun-text">ааоуаоуоауоа bloodfl1psid<3<3</div>
+    </div>
+
+    <div id="discordModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Main Discord: mostw0nderfulcreat1onofworld</p>
+            <p>Second Discord: 777iqboy</p>
+        </div>
+    </div>
+
+    <div id="steamModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>CSGO-SaVHM-YmaoM-iVQky-a5G3W-u66yD</p>
+        </div>
+    </div>
+
+    <script>
+        function openDiscord() {
+            document.getElementById("discordModal").style.display = "block";
+        }
+
+        function showSteamInfo() {
+            document.getElementById("steamModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("discordModal").style.display = "none";
+            document.getElementById("steamModal").style.display = "none";
+        }
+    </script>
+</body>
+</html>
